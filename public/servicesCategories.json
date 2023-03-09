@@ -1,26 +1,20 @@
 [
     {
-    "_id":"001",
     "Name": "Dhaka"
   },
     {
-    "_id":"002",
     "Name": "Chittagong"
   },
     {
-    "_id":"003",
     "Name": "Sylhet"
   },
     {
-    "_id":"003",
     "Name": "Rangpur"
   },
     {
-    "_id":"003",
     "Name": "Khulna"
   },
     {
-    "_id":"001",
     "Name": "Barisal"
   }
 ]

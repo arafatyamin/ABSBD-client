@@ -1,7 +1,6 @@
 [
     {
-      "id": "01",
-      "categoriesId": "001",
+      "categoriesId": "640a35d444dd3bba3578fea2",
       "title": "Offering You 2000 Sq Ft Flat For Sale In Bashundhara R-a",
       "location": {"city": "Dhaka",
         "address":"Block D, Bashundhara R-A,",
@@ -48,6 +47,7 @@
     },
     {
       "title": "Offering You 2000 Sq Ft Flat For Sale In Bashundhara R-a",
+      "categoriesId": "640a35d444dd3bba3578fea2",
       "locattion": "Block D, Bashundhara R-A, Dhaka",
       "price": 220,
       "demoPicture": [
@@ -90,6 +90,7 @@
     },
     {
       "title": "Offering You 2000 Sq Ft Flat For Sale In Bashundhara R-a",
+      "categoriesId": "640a35d444dd3bba3578fea5",
       "locattion": "Block D, Bashundhara R-A, Dhaka",
       "price": 220,
       "demoPicture": [
@@ -132,6 +133,7 @@
     },
     {
       "title": "Offering You 2000 Sq Ft Flat For Sale In Bashundhara R-a",
+      "categoriesId": "640a35d444dd3bba3578fea4",
       "locattion": "Block D, Bashundhara R-A, Dhaka",
       "price": 220,
       "demoPicture": [
@@ -174,6 +176,7 @@
     },
     {
       "title": "Offering You 2000 Sq Ft Flat For Sale In Bashundhara R-a",
+      "categoriesId": "640a35d444dd3bba3578fea3",
       "locattion": "Block D, Bashundhara R-A, Dhaka",
       "price": 220,
       "demoPicture": [
