@@ -1,8 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false)
+	const [Categories, setCategories] = useState([])
+    useEffect(()=>{
+        fetch('servicesCategories.json')
+        .then(res => res.json())
+        .then(data => {console.log(data)
+            setCategories(data)})
+    },[])
 	console.log(open)
 
 	const navMenu =
@@ -10,9 +17,21 @@ const Navbar = () => {
 			<li className="mb-1">
 				<Link to='/' className="text-sm font-semibold text-gray-400 pr-4 hover:text-blue-600 rounded">Home</Link>
 			</li>
-			<li className="mb-1">
+			<li className="mb-1 group flex flex-col">
 				<Link to='/products' className="px-4 text-sm font-semibold text-gray-400 hover:text-blue-600 rounded">Products</Link>
+				<ul>
+					{
+						Categories.map(categorie => 
+							<li className='text-black'>
+								{categorie.name}
+							</li>)
+					}
+				</ul>
 			</li>
+			<li className="mb-1">
+				<Link to='/dashboard' className="px-4 text-sm font-semibold text-gray-400 hover:text-blue-600 rounded">dashboard</Link>
+			</li>
+			
 			<li className="mb-1">
 				<Link to='/aboutUs' className="px-4 text-sm font-semibold text-gray-400 hover:text-blue-600 rounded">About Us</Link>
 			</li>

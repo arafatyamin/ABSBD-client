@@ -25,11 +25,11 @@ const ContactMe = () => {
                         <div 
                             class="max-w-[570px] mb-12 lg:mb-0"
                         >
-                        <p class="text-base text-4xl font-extrabold text-body-color leading-relaxed stand__out__text mb-9 mx-5">
+                        <p class=" text-4xl font-extrabold text-body-color leading-relaxed stand__out__text mb-9 mx-5">
                             Lorem ipsum dolor. Nulla porttitor accumsan tincidunt.
                         </p>
-                        <p class="text-base text-2xl font-medium text-body-color leading-relaxed mb-9 mx-5">
-                            Based in <span class="font-bold font-bold italic">America</span>, available worldwide.
+                        <p class=" text-2xl font-medium text-body-color leading-relaxed mb-9 mx-5">
+                            Based in <span class="font-bold italic">America</span>, available worldwide.
                         </p>
 
                         

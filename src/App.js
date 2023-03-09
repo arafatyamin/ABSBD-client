@@ -7,9 +7,8 @@ import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <div>
-      
-      <RouterProvider router={router}>
 
+      <RouterProvider router={router}>
       </RouterProvider>
     </div>
   );

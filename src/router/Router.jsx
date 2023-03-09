@@ -1,7 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
+import AddToCard from "../components/AddToCard";
+import DashboardRoot from "../layout/DashboardRoot";
 import Root from "../layout/Root";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import ContactMe from "../Pages/ContactMe/ContactMe";
+import Dashboard from "../Pages/Dashboard/Dashboard";
 import Home from "../Pages/home/Home/Home";
 import ProductDetails from "../Pages/ProductDetails/ProductDetails";
 import Products from "../Pages/Products/Products";
@@ -43,6 +46,16 @@ export const router = createBrowserRouter([
                 path: '/contactMe',
                 element: <ContactMe></ContactMe>
             },
+        ]
+    },
+    {
+        path: '/dashboard',
+        element: <DashboardRoot></DashboardRoot>,
+        children:[
+            {
+                path: '/dashboard',
+                element: <Dashboard></Dashboard>
+            }
         ]
     }
 ])
